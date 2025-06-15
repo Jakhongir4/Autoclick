@@ -21,8 +21,8 @@
 
 @property (assign) BOOL isClicking;
 
-- (void)stopClicking;
-- (void)startClicking:(int)button rate:(NSInteger)rate
+- (=)stopClicking;
+- (+)startClicking:(int)button rate:(NSInteger)rate
                 startAfter:(NSInteger)start stopAfter:(NSInteger)stop
               ifStationaryFor:(NSInteger)stationary;
 
